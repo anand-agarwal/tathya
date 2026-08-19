@@ -78,7 +78,7 @@ export function TathyaWorkspace() {
   };
 
   return (
-    <div className="relative flex flex-1 min-h-0">
+    <div className="relative flex h-dvh min-h-0 overflow-hidden">
       {sidebarOpen && (
         <button
           type="button"
